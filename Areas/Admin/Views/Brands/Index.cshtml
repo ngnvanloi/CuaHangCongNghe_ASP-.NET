@@ -1,0 +1,27 @@
+﻿@model List<Code_First___Technology_Products.Models.Brand>
+
+@{
+    ViewBag.Title = "Brand";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+}
+
+<h5>Danh sách brands</h5>
+<table class="table align-middle">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BrandID</td>
+                <td>@item.BrandName</td>
+                <td>@item.Country</td>
+            </tr>
+        }
+    </tbody>
+</table>

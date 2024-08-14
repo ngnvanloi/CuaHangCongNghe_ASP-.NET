@@ -1,0 +1,44 @@
+﻿@model Code_First___Technology_Products.ViewModel.LoginVM
+
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<style>
+    .row-md {
+        margin-top: 20px;
+    }
+
+    #formRegister {
+        width: 350px;
+        padding: 20px;
+        margin: 0 auto;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+</style>
+<div id="formRegister">
+    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+    {
+        <h4 style="text-align: center!important;">Đăng nhập tài khoản</h4>
+
+        <div class="col">
+            <div class="row-md">
+                @Html.LabelFor(temp => temp.Username)
+                @Html.TextBoxFor(temp => temp.Username, new { placeholder = "User Name", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Username)
+            </div>
+            <div class="row-md">
+                @Html.LabelFor(temp => temp.Password)
+                @Html.TextBoxFor(temp => temp.Password, new { placeholder = "Password", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Password)
+            </div>
+            <div class="row-md">
+                @Html.ValidationSummary()
+            </div>
+        </div>       
+        <button type="submit" class="btn btn-success" style="margin-top: 30px;">Đăng nhập</button>
+    }
+</div>
+
+

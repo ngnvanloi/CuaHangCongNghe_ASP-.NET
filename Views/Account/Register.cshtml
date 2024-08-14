@@ -1,0 +1,81 @@
+﻿@model Code_First___Technology_Products.ViewModel.RegisterVM
+
+@{
+    ViewBag.Title = "Đăng kí";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<style>
+    .row {
+        margin-top: 20px;
+    }
+    #formRegister {
+        width: 650px;
+        padding: 20px;
+        margin: 0 auto;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+</style>
+<div id="formRegister">
+    @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+    {
+        <h4 style="text-align: center!important;">Đăng kí tài khoản</h4>
+
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.CustomerName)
+                @Html.TextBoxFor(temp => temp.CustomerName, new { placeholder = "Customer's Name", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.CustomerName)
+            </div>
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.Username)
+                @Html.TextBoxFor(temp => temp.Username, new { placeholder = "User Name", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Username)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.Password)
+                @Html.TextBoxFor(temp => temp.Password, new { placeholder = "Password", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Password)
+            </div>
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.ConfirmPassword)
+                @Html.TextBoxFor(temp => temp.ConfirmPassword, new { placeholder = "Confirm Password", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.ConfirmPassword)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.Email)
+                @Html.TextBoxFor(temp => temp.Email, new { placeholder = "Email", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Email)
+            </div>
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.MobilePhone)
+                @Html.TextBoxFor(temp => temp.MobilePhone, new { placeholder = "MobilePhone", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.MobilePhone)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.DateOfBirth)
+                @Html.TextBoxFor(temp => temp.DateOfBirth, new { placeholder = "Date of birth", @class = "form-control", type = "date" })
+                @Html.ValidationMessageFor(temp => temp.DateOfBirth)
+            </div>
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.Gender)
+                @Html.TextBoxFor(temp => temp.Gender, new { placeholder = "Gender", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Gender)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                @Html.LabelFor(temp => temp.Address)
+                @Html.TextBoxFor(temp => temp.Address, new { placeholder = "Address", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Address)
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success" style="margin-top: 30px;">Đăng kí</button>
+    }
+</div>
+

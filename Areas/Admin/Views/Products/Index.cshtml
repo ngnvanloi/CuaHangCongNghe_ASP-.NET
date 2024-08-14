@@ -1,0 +1,181 @@
+﻿@model List<Code_First___Technology_Products.Models.Product>
+
+@{
+    ViewBag.Title = "Quản trị sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+}
+
+<h4 style="margin-top: 20px;">Danh sách sản phẩm</h4>
+<style>
+    .addNew {
+        border-radius: 10px;
+    }
+        .addNew:hover {
+            transition: ease-in 0.1s;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+            transform: translateY(-0.1em);
+        }
+    .soft {
+        border-radius: 5px;
+    }
+
+    .soft:hover {
+            transition: ease-in 0.1s;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            transform: translateY(-0.15em);
+    }   
+        
+</style>
+<!--TÙY CHỌN TÌM KIẾM | SẮP XẾP-->
+<h5 style="margin-top: 15px">Sắp xếp theo</h5>
+<div class="row">
+    <div class="col-2">
+        <a href="/Admin/Products/Index?search=@ViewBag.Search&softType=priceIncrease" style="text-decoration: none; color: black">
+            <div style="background-color: #F3F4F6; padding: 5px; text-align: center!important" class="soft">
+                <i class="fa-solid fa-arrow-up-wide-short"></i>
+                Giá Thấp - Cao
+            </div>
+        </a>
+    </div>
+    <div class="col-2">
+        <a href="/Admin/Products/Index?search=@ViewBag.Search&softType=priceDecrease" style="text-decoration: none; color: black">
+            <div style="background-color: #F3F4F6; padding: 5px; text-align: center!important" class="soft">
+                <i class="fa-solid fa-arrow-down-wide-short"></i>
+                Giá Cao - Thấp
+            </div>
+        </a>
+    </div>
+    <div class="col-2">
+        <a href="/Admin/Products/Index?search=&softType=" style="text-decoration: none; color: black">
+            <div style="background-color: #F3F4F6; padding: 5px; text-align: center!important" class="soft">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                Reset
+            </div>
+        </a>
+    </div>
+</div>
+<div class="addNew" style="margin-top: 30px;">
+    <a href="/Admin/Products/addNewProduct" style="text-decoration: none; color: black">
+        <div style="background-color: #F3F4F6; padding: 5px; text-align: center!important" class="soft">
+            <i class="fa-solid fa-circle-plus"></i>
+            Thêm sản phẩm mới
+        </div>
+    </a>
+</div>
+<table class="table align-middle">
+    <thead>
+        <tr >
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Image</th>
+            <th scope="col">Price</th>
+            <th scope="col">Stock</th>
+            <th scope="col">Brand</th>
+            <th scope="col">Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <style>
+            .edit span:hover {
+                transition: ease-in 0.1s;
+                box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            }
+        </style>
+        @foreach (var item in Model)
+        {
+            
+
+            //stt++;
+            <tr>
+                <td>@item.ProductID</td>
+                <td>@item.ProductName</td>
+                <td>
+                    <img src="@item.ProductImage" alt="Alternate Text" height="100px" />
+                </td>
+                <td>@item.Price</td>
+                <td>@item.Stock</td>
+                <td>@item.Brand.BrandName</td>
+                <td class="edit">
+                    <span style="padding: 5px; background-color: #157347; border-radius: 10px;"><a href="/Admin/Products/updateProduct?id=@item.ProductID" style="text-decoration: none; color: white;"><i class="fa-solid fa-pen-to-square"></i></a></span> |
+                    <span style="padding: 5px; background-color: #DF042A; border-radius: 10px;"><a href="/Admin/Products/deleteProducts?id=@item.ProductID" style="text-decoration: none; color: white;"><i class="fa-solid fa-trash"></i></a></span>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+<!--PAGINATION-->
+<style>
+    #pagination {
+        margin: 30px auto;
+    }
+
+    .page-link {
+        color: #212529;
+    }
+
+        .active > .page-link, .page-link.active {
+            z-index: 3;
+            color: white;
+            background-color: #212529;
+            border-color: #F3F4F6;
+        }
+
+    .page-item:last-child .page-link {
+        border-radius: 0px;
+    }
+
+    .page-item:first-child .page-link {
+        border-radius: 0px;
+    }
+
+    #pagination a:hover {
+        color: #212529;
+    }
+
+    #pagination .page-link:hover {
+        z-index: 2;
+        color: #212529;
+        background-color: #F3F4F6;
+        border-color: #F3F4F6;
+    }
+
+    #pagination .page-link:focus {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        color: #212529;
+    }
+</style>
+<div class="row">
+    <nav id="pagination" aria-label="Page navigation example" class="">
+        @{
+            int prePage = ViewBag.page - 1;
+            if (prePage <= 0)
+            {
+                prePage = 1;
+            }
+            int nextPage = ViewBag.page + 1;
+            if (nextPage > ViewBag.noOfPages)
+            {
+                nextPage = ViewBag.noOfPages;
+            }
+        }
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="/Admin/Products/Index?search=@ViewBag.Search&page=@prePage&softType=@ViewBag.SoftType">Prev</a></li>
+            @for (int i = 0; i < ViewBag.noOfPages; i++)
+            {
+                if (i + 1 == ViewBag.Page)
+                {
+                    <li class="page-item"><a class="page-link active" href="/Admin/Products/Index?search=@ViewBag.Search&page=@(i+1)&softType=@ViewBag.SoftType">@(i+1)</a></li>
+                }
+                else
+                {
+                    <li class="page-item"><a class="page-link" href="/Admin/Products/Index?search=@ViewBag.Search&page=@(i+1)&softType=@ViewBag.SoftType">@(i+1)</a></li>
+                }
+            }
+            <li class="page-item"><a class="page-link" href="/Admin/Products/Index?search=@ViewBag.Search&page=@nextPage&softType=@ViewBag.SoftType">Next</a></li>
+        </ul>
+    </nav>
+</div>
+
+

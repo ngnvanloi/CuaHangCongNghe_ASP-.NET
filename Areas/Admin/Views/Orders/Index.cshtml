@@ -1,0 +1,66 @@
+﻿@model List<Code_First___Technology_Products.Models.Order>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+}
+
+<h2 style="margin-top: 10px;">Thống kê giỏ hàng</h2>
+<div style="height: 500px; overflow-y:scroll; margin-top: 20px;">
+    <table class="table align-middle">
+        <thead>
+            <tr>
+                <th scope="col">STT</th>
+                <th scope="col">Customer</th>
+                <th scope="col">Products</th>
+                <th scope="col">Image</th>
+                <th scope="col">Date Order</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <style>
+                .edit span:hover {
+                    transition: ease-in 0.1s;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                }
+            </style>
+            @{
+                int stt = 0;
+                decimal Total = 0;
+            }
+            @using Code_First___Technology_Products.Models;
+
+            @foreach (var item in Model)
+            {
+                CompanyDBContext db = new CompanyDBContext();
+                OrderDetail orderDetail = db.OrderDetails.Include("Product").Where(row => row.OrderID == item.OrderID).FirstOrDefault();
+                if (orderDetail != null)
+                {
+                    stt++;
+                    <tr>
+                        <td>@stt</td>
+                        <td>@item.AppUser.CustomerName</td>
+                        <td>@orderDetail.Product.ProductName</td>
+                        <td>
+                            <img src="@orderDetail.Product.ProductImage" alt="@orderDetail.Product.ProductName" height="100px" />
+                        </td>
+                        <td>@item.OrderDate</td>
+
+                        <td>@orderDetail.Price</td>
+                        <td>@orderDetail.Quantity</td>
+                        <td>@item.Total</td>
+                        @{
+                            Total += @item.Total;
+                        }
+                    </tr>
+                }
+            }
+
+        </tbody>
+    </table>
+</div>
+<p style="margin-top: 20px; font-weight: bold">Tổng doanh thu:  <span style="color: red">@Total $</span></p>

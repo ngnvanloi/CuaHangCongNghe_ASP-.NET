@@ -1,0 +1,60 @@
+﻿@model List<Code_First___Technology_Products.Identity.AppUser>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+}
+<style>
+    .addNew {
+        border-radius: 10px;
+    }
+    .addNew:hover {
+            transition: ease-in 0.1s;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+            transform: translateY(-0.1em);
+        }
+</style>
+<h2>Danh sách người dùng</h2>
+<div class="addNew" style="margin-top: 30px;">
+    <a href="/Admin/Users/addNewUser" style="text-decoration: none; color: black">
+        <div style="background-color: #F3F4F6; padding: 5px; text-align: center!important" class="soft">
+            <i class="fa-solid fa-circle-plus"></i>
+            Thêm người dùng mới
+        </div>
+    </a>
+</div>
+<table class="table align-middle" style="margin-top: 30px;">
+    <thead>
+        <tr>
+            <th scope="col">Username</th>
+            <th scope="col">Name</th>
+            <th scope="col">Numberphone</th>
+            <th scope="col">Email</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <style>
+            .edit span:hover {
+                transition: ease-in 0.1s;
+                box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            }
+        </style>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.UserName</td>
+                <td>@item.CustomerName</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.Email</td>
+                <td class="edit">
+                    <span style="padding: 5px; background-color: #157347; border-radius: 10px;"><a href="/Admin/Users/updateUserInformation?id=@item.Id" style="text-decoration: none; color: white;"><i class="fa-solid fa-pen-to-square"></i></a></span> |
+                    <span style="padding: 5px; background-color: #DF042A; border-radius: 10px;"><a href="/Admin/Users/deleteUserByID?id=@item.Id" style="text-decoration: none; color: white;"><i class="fa-solid fa-trash"></i></a></span> |
+                    <span style="padding: 5px; background-color: #74C0FC; border-radius: 10px;"><a href="/Admin/Users/getUserByID?id=@item.Id" style="text-decoration: none; color: white;"><i class="fa-solid fa-circle-info"></i></a></span>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+    
+</table>

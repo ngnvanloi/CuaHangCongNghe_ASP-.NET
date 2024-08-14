@@ -1,0 +1,736 @@
+﻿@model List<Code_First___Technology_Products.Models.Product>
+@using Code_First___Technology_Products.Models;
+@{
+    CompanyDBContext db = new CompanyDBContext();
+    List<Product> proDienThoais = db.Products.Where(row => row.CategoryID == 2).ToList();
+    List<Product> proTablets = db.Products.Where(row => row.CategoryID == 4).ToList();
+    List<Product> proLaptops = db.Products.Where(row => row.CategoryID == 3).ToList();
+    List<Product> proSmartwatchs = db.Products.Where(row => row.CategoryID == 5).ToList();
+    List<Product> proEarphones = db.Products.Where(row => row.CategoryID == 1).ToList();
+}
+@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+@section danhMucSanPham {
+    <!-- #region BODY MENU-->
+    <div class="container-fluid text-center mt-2" style="min-height: 300px;">
+        <div class="row">
+            <div class="col-1"></div>
+            <!--CHỌN THEO DANH MỤC-->
+            <div class="col-2" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <!--bg-info-->
+                <style>
+                    .danh-muc-san-pham .row {
+                        padding: 5px 0px;
+                        margin: 10px 0 !important;
+                    }
+
+                    .danh-muc-san-pham > .row > .col-8 > a {
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                        .danh-muc-san-pham > .row > .col-8 > a:hover {
+                            color: #DF042A;
+                        }
+                </style>
+                <div class="col danh-muc-san-pham">
+                    <div class="row" style="padding: 5px 12px; color: #DF042A;">Danh mục sản phẩm</div>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="#">
+                                Điện thoại
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-laptop"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="#">
+                                Laptop
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-headphones-simple"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="#">
+                                Tai nghe
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-tablet-screen-button"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="#">
+                                Tablet
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div class="col-8">
+                            <a href="#">
+                                Smartwatch
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CAROUSEL -->
+            <div class="col-6" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  margin: 0px 10px;">
+                <!--bg-secondary-->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active w-100" style="" data-bs-interval="5000">
+                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/690-300-max-iphone15-promax-th1102.jpg" class="d-block w-100" alt="carousel 1">
+                        </div>
+                        <div class="carousel-item w-100" style="" data-bs-interval="5000">
+                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/sliding-amyhanh-t11-27.jpg" class="d-block w-100" alt="carousel 2">
+                        </div>
+                        <div class="carousel-item w-100" style="" data-bs-interval="5000">
+                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/sony-tainghe-sliding-th11.jpg" class="d-block w-100" alt="carousel 3">
+                        </div>
+                        <div class="carousel-item w-100" style="" data-bs-interval="5000">
+                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/sliding-sony-520-th10.jpg" class="d-block w-100" alt="carousel 4">
+                        </div>
+                        <div class="carousel-item w-100" style="" data-bs-interval="5000">
+                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/watch%209%20series.png" class="d-block w-100" alt="carousel 5">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!--BANNER QUẢNG CÁO-->
+            <div class="col-2" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <!--bg-success-->
+                <!--để banner quảng cáo-->
+                <div class="col">
+                    <div class="row pb-2">
+                        <img width="100%;" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:10/plain/https://dashboard.cellphones.com.vn/storage/m14.png" alt="Alternate Text" />
+                    </div>
+                    <div class="row pb-2">
+                        <img width="100%;" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:10/plain/https://dashboard.cellphones.com.vn/storage/gen%209.jpg" alt="Alternate Text" />
+
+                    </div>
+                    <div class="row pb-2">
+                        <img width="100%;" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:10/plain/https://dashboard.cellphones.com.vn/storage/rb%20laptop.png" alt="Alternate Text" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <!-- #endregion -->
+}
+<style>
+    .card .card-body h5 {
+        min-height: 45px;
+        font-size: 15px;
+    }
+
+    .card .card-body p {
+        font-size: 13px;
+    }
+
+    .carousel-item .row .col:hover {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        transition: ease-in 0.1s;
+        transform: translateY(-0.25em);
+    }
+
+    .carousel-item .row .col {
+        border-radius: 7px;
+        padding: 7px;
+    }
+
+    #carouselExample .carousel-item,
+    #carouselExample1 .carousel-item,
+    #carouselExample2 .carousel-item,
+    #carouselExample3 .carousel-item,
+    #carouselExample4 .carousel-item {
+        min-height: 430px;
+    }
+
+        #carouselExample .carousel-item .row .col .card {
+            min-height: 430px;
+        }
+
+    #hotSale {
+        border-radius: 0px;
+        overflow: hidden;
+        background: url(https://cdn2.cellphones.com.vn/x/media/wysiwyg/fs-bg.png) 0% 0% / cover no-repeat;
+        margin: 30px 0px;
+        padding: 30px 50px 50px 50px;
+    }
+
+        #hotSale .card:hover {
+            transition: ease-in 0.1s;
+            /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+            transform: translateY(-0.35em);
+        }
+</style>
+
+<!--BANNER ƯU ĐÃI-->
+<div style="padding: 0px">
+    <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:1200:75/q:80/plain/https://dashboard.cellphones.com.vn/storage/banner-special-desk-b2s-new.png" alt="Alternate Text" width="100%" />
+</div>
+
+<!--HOT SALE KHUYẾN MÃI-->
+<div id="hotSale" class="">
+    <img src="https://cdn2.cellphones.com.vn/x/media/wysiwyg/hotsale-gia-soc.gif" alt="Alternate Text" height="80px;" />
+    @*<h1 class="" style="z-index: 10"><span style="color: red; font-weight: bold">H<i class="fa-solid fa-fire fa-bounce"></i>T </span><span style="color: white; font-weight: bold">SALE</span></h1>*@
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Home/getProductByID?id=@proDienThoais[8].ProductID">
+                    <img src="@proDienThoais[8].ProductImage" class="card-img-top" alt="@proDienThoais[8].ProductName">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">@proDienThoais[8].ProductName</h5>
+                    <p class="card-text">Giá: <span style="color: #DF042A; text-decoration: line-through;">@proDienThoais[8].Price</span> $</p>
+                    <p class="card-text">Hot Sale: <span style="color: #DF042A; ">@(proDienThoais[8].Price * 90/100) $</span> </p>
+
+                    <p class="card-text">@proDienThoais[8].ProductDescription</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Home/getProductByID?id=@proLaptops[5].ProductID">
+                    <img src="@proLaptops[5].ProductImage" class="card-img-top" alt="@proLaptops[5].ProductName">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">@proLaptops[5].ProductName</h5>
+                    <p class="card-text">Giá: <span style="color: #DF042A; text-decoration: line-through;">@proLaptops[5].Price $</span> </p>
+                    <p class="card-text">Hot Sale: <span style="color: #DF042A; ">@(proLaptops[5].Price * 95/100) $</span> </p>
+
+                    <p class="card-text">@proLaptops[5].ProductDescription</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Home/getProductByID?id=@proSmartwatchs[4].ProductID">
+                    <img src="@proSmartwatchs[4].ProductImage" class="card-img-top" alt="@proSmartwatchs[4].ProductName">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">@proSmartwatchs[4].ProductName</h5>
+                    <p class="card-text">Giá: <span style="color: #DF042A; text-decoration: line-through;">@proSmartwatchs[4].Price $</span> </p>
+                    <p class="card-text">Hot Sale: <span style="color: #DF042A; ">@(@proSmartwatchs[4].Price * 90/100) $</span> </p>
+                    <p class="card-text">@proSmartwatchs[4].ProductDescription</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Home/getProductByID?id=@proEarphones[7].ProductID">
+                    <img src="@proEarphones[7].ProductImage" class="card-img-top" alt="@proEarphones[7].ProductName">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">@proEarphones[7].ProductName</h5>
+                    <p class="card-text">Giá: <span style="color: #DF042A; text-decoration: line-through;">@proEarphones[7].Price $</span></p>
+                    <p class="card-text">Hot Sale: <span style="color: #DF042A; ">@(proEarphones[7].Price * 80/100) $</span> </p>
+                    <p class="card-text">@proEarphones[7].ProductDescription</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--ĐIỆN THOẠI NỔI BẬT-->
+<h4 style="margin-top: 50px;" id="">SMARTPHONE</h4>
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        @{
+            // số lượng điện thoại có trong database
+            int n = proDienThoais.Count();
+            int itemsPerSlide = 5;
+            double slides = n / itemsPerSlide;
+            int slideCount = (int)(Math.Ceiling(slides));
+        }
+        @for (int i = 0; i < slideCount; i++)
+        {
+            int k = 5 * i + 5;
+            <div class="carousel-item @(i == 0 ? "active" : "")" data-bs-interval="10000">
+                <div class="row row-cols-1 row-cols-md-5 g-4" style="padding: 5px;">
+                    @for (int j = k - 5; j < k; j++)
+                    {
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="/Home/getProductByID?id=@proDienThoais[j].ProductID">
+                                    <img src="@proDienThoais[j].ProductImage" class="card-img-top" alt="@proDienThoais[j].ProductName">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@proDienThoais[j].ProductName</h5>
+                                    <p class="card-text">Giá: <span style="color: #DF042A;">@proDienThoais[j].Price</span> $</p>
+                                    <p class="card-text">@proDienThoais[j].ProductDescription</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--MÁY TÍNH BẢNG NỔI BẬT-->
+<h4 style="margin-top: 50px;" id="">TABLET</h4>
+<div id="carouselExample1" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        @{
+            // số lượng điện thoại có trong database
+            int n1 = proTablets.Count();
+            int itemsPerSlide1 = 5;
+            double slides1 = n1 / itemsPerSlide1;
+            int slideCount1 = (int)(Math.Ceiling(slides1));
+        }
+        @for (int i = 0; i < slideCount1; i++)
+        {
+            int k = 5 * i + 5;
+            <div class="carousel-item @(i == 0 ? "active" : "")" data-bs-interval="10000">
+                <div class="row row-cols-1 row-cols-md-5 g-4">
+                    @for (int j = k - 5; j < k; j++)
+                    {
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="/Home/getProductByID?id=@proTablets[j].ProductID">
+                                    <img src="@proTablets[j].ProductImage" class="card-img-top" alt="@proTablets[j].ProductName">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@proTablets[j].ProductName</h5>
+                                    <p class="card-text">Giá: <span style="color: #DF042A;">@proTablets[j].Price</span> $</p>
+                                    <p class="card-text">@proTablets[j].ProductDescription</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--LAPTOP NỔI BẬT-->
+<h4 style="margin-top: 50px;" id="">LAPTOP</h4>
+<div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        @{
+            // số lượng điện thoại có trong database
+            int n2 = proLaptops.Count();
+            int itemsPerSlide2 = 5;
+            double slides2 = n2 / itemsPerSlide2;
+            int slideCount2 = (int)(Math.Ceiling(slides2));
+        }
+        @for (int i = 0; i < slideCount2; i++)
+        {
+            int k = 5 * i + 5;
+            <div class="carousel-item @(i == 0 ? "active" : "")" data-bs-interval="10000">
+                <div class="row row-cols-1 row-cols-md-5 g-4">
+                    @for (int j = k - 5; j < k; j++)
+                    {
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="/Home/getProductByID?id=@proLaptops[j].ProductID">
+                                    <img src="@proLaptops[j].ProductImage" class="card-img-top" alt="@proLaptops[j].ProductName">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@proLaptops[j].ProductName</h5>
+                                    <p class="card-text">Giá: <span style="color: #DF042A;">@proLaptops[j].Price</span> $</p>
+                                    <p class="card-text">@proLaptops[j].ProductDescription</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--TAI NGHE NỔI BẬT-->
+<h4 style="margin-top: 50px;" id="">EARPHONE</h4>
+<div id="carouselExample3" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        @{
+            // số lượng điện thoại có trong database
+            int n3 = proEarphones.Count();
+            int itemsPerSlide3 = 5;
+            double slides3 = n3 / itemsPerSlide3;
+            int slideCount3 = (int)(Math.Ceiling(slides3));
+        }
+        @for (int i = 0; i < slideCount3; i++)
+        {
+            int k = 5 * i + 5;
+            <div class="carousel-item @(i == 0 ? "active" : "")" data-bs-interval="10000">
+                <div class="row row-cols-1 row-cols-md-5 g-4">
+                    @for (int j = k - 5; j < k; j++)
+                    {
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="/Home/getProductByID?id=@proEarphones[j].ProductID">
+                                    <img src="@proEarphones[j].ProductImage" class="card-img-top" alt="@proEarphones[j].ProductName">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@proEarphones[j].ProductName</h5>
+                                    <p class="card-text">Giá: <span style="color: #DF042A;">@proEarphones[j].Price</span> $</p>
+                                    <p class="card-text">@proEarphones[j].ProductDescription</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--ĐỒNG HỒ NỔI BẬT-->
+<h4 style="margin-top: 50px;" id="">SMARTWATCH</h4>
+<div id="carouselExample4" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        @{
+            // số lượng điện thoại có trong database
+            int n4 = proSmartwatchs.Count();
+            int itemsPerSlide4 = 5;
+            double slides4 = n4 / itemsPerSlide4;
+            int slideCount4 = (int)(Math.Ceiling(slides4));
+        }
+        @for (int i = 0; i < slideCount4; i++)
+        {
+            int k = 5 * i + 5;
+            <div class="carousel-item @(i == 0 ? "active" : "")" data-bs-interval="10000">
+                <div class="row row-cols-1 row-cols-md-5 g-4">
+                    @for (int j = k - 5; j < k; j++)
+                    {
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="/Home/getProductByID?id=@proSmartwatchs[j].ProductID">
+                                    <img src="@proSmartwatchs[j].ProductImage" class="card-img-top" alt="@proSmartwatchs[j].ProductName">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@proSmartwatchs[j].ProductName</h5>
+                                    <p class="card-text">Giá: <span style="color: #DF042A;">@proSmartwatchs[j].Price</span> $</p>
+                                    <p class="card-text">@proSmartwatchs[j].ProductDescription</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--ƯU ĐÃI THANH TOÁN-->
+<h4 style="margin-top: 50px;">ƯU ĐÃI THANH TOÁN</h4>
+<div class="row">
+    <div class="col">
+        <a href="#">
+            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/uob-690-300-uu-dai-thanhtoan-home.png" alt="Alternate Text" width="100%" />
+        </a>
+    </div>
+    <div class="col">
+        <a href="#">
+            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/690-300-max-bank-sc-uu-dai-thanh-toan-sliding.png" alt="Alternate Text" width="100%" />
+        </a>
+    </div>
+    <div class="col">
+        <a href="#">
+            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/hsbcbank-iphone5-sli.png" alt="Alternate Text" width="100%" />
+        </a>
+    </div>
+    <div class="col">
+        <a href="#">
+            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/vibiphone5-sli.png" alt="Alternate Text" width="100%" />
+        </a>
+    </div>
+</div>
+
+<!--CHUYÊN TRANG THƯƠNG HIỆU-->
+<h4 style="margin-top: 50px;">CHUYÊN TRANG THƯƠNG HIỆU</h4>
+<div class="row">
+    <div class="col">
+        <a href="#">
+            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/banner-sliding-apple-112.png" alt="Alternate Text" width="100%" />
+        </a>
+    </div>
+    <div class="col">
+        <a href="#">
+            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/th-hieu-ss-0013.png" alt="Alternate Text" width="100%" />
+        </a>
+    </div>
+    <div class="col">
+        <a href="#">
+            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/SIS%20asus.png" alt="Alternate Text" width="100%" />
+        </a>
+    </div>
+    <div class="col">
+        <a href="#">
+            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:80/plain/https://dashboard.cellphones.com.vn/storage/xiaomi.png" alt="Alternate Text" width="100%" />
+        </a>
+    </div>
+</div>
+
+<!--ĐIỂM TIN CÔNG NGHỆ-->
+<h4 style="margin-top: 50px;">TIN CÔNG NGHỆ</h4>
+<div id="carouselExample5" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="" data-bs-interval="10000">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card h-100" style="padding: 5px;">
+                        <a href="https://cellphones.com.vn/sforum/tren-tay-xiaomi-redmi-pad-se-man-hinh-lon-11-inches-tan-so-90hz-snapdragon-680-gia-4-99-trieu" target="_blank" style="text-decoration: none; color: black; ">
+                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:385:0/q:100/plain/https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/cover-Redmi-Pad-SE-2.jpg" class="card-img-top" alt="news1">
+                            <div class="card-body">
+                                <h5 class="card-title" style="max-height: 30px; font-size: 16px; overflow-x: auto;">
+                                    Trên tay Xiaomi Redmi Pad SE: Màn hình lớn 11 inches, tần số 90Hz, Snapdragon 680, giá 4.99 triệu
+                                </h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    Last updated 3 hours ago
+                                </small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" style="padding: 5px;">
+                        <a href="https://cellphones.com.vn/sforum/chuot-gaming-duoi-1-trieu" target="_blank" style="text-decoration: none; color: black; ">
+                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:385:0/q:100/plain/https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/chuot-gaming-duoi-1-trieu-6.jpeg" class="card-img-top" alt="news1">
+                            <div class="card-body">
+                                <h5 class="card-title" style="max-height: 30px; font-size: 16px; overflow-x: auto;">
+                                    Top 5 chuột gaming dưới 1 triệu phù hợp tiêu chí "ngon - bổ - rẻ"
+                                </h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    Last updated 4 hours ago
+                                </small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" style="padding: 5px;">
+                        <a href="https://cellphones.com.vn/sforum/thong-tin-chi-tiet-camera-leica-cua-xiaomi-14" target="_blank" style="text-decoration: none; color: black; ">
+                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:385:0/q:100/plain/https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/Xiaomi-14-Camera-cover.jpeg" class="card-img-top" alt="news1">
+                            <div class="card-body">
+                                <h5 class="card-title" style="max-height: 30px; font-size: 16px; overflow-x: auto;">
+                                    Thông tin chi tiết camera Leica của Xiaomi 14 chính thức được tiết lộ
+                                </h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    Last updated 5 hours ago
+                                </small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" style="padding: 5px;">
+                        <a href="https://cellphones.com.vn/sforum/day-la-thong-so-ky-thuat-chi-tiet-cua-chip-snapdragon-8-gen-3-sap-ra-mat" target="_blank" style="text-decoration: none; color: black; ">
+                            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:385:0/q:100/plain/https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/Qualcomm-Snapdragon-8-Gen-3-thong-so-cover.jpeg" class="card-img-top" alt="news1">
+                            <div class="card-body">
+                                <h5 class="card-title" style="max-height: 30px; font-size: 16px; overflow-x: auto;">
+                                    Đây là thông số kỹ thuật chi tiết của chip Snapdragon 8 Gen 3 sắp ra mắt
+                                </h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    Last updated 1 day ago
+                                </small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>

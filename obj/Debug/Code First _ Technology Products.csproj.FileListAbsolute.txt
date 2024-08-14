@@ -1,0 +1,422 @@
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.dll.config
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.pdb
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.exe
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.exe.config
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.rsp
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.exe
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.exe.config
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.rsp
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Managed.Core.targets
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.AppContext.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Collections.Immutable.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Console.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Globalization.Calendars.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.Compression.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.FileSystem.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Net.Http.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Net.Sockets.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Reflection.Metadata.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.ValueTuple.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XmlDocument.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XPath.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.exe
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.exe.config
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.rsp
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\VBCSCompiler.exe
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\VBCSCompiler.exe.config
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.SqlServer.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Core.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.Cookies.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.OAuth.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Web.Infrastructure.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Owin.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Helpers.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Mvc.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Razor.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Deployment.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Razor.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.SqlServer.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Core.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.Cookies.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.OAuth.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Razor.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Deployment.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Razor.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Helpers.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Mvc.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.AssemblyReference.cache
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.CoreCompileInputs.cache
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.CopyComplete
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.dll
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.pdb
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.IdentityMigration.Init.resources
+D:\3. TÀI NGUYÊN MÔN HỌC\HỌC KÌ 5\GT LapTrinhWeb\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.GenerateResource.cache
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.dll.config
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.pdb
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.exe
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.exe.config
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.rsp
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.exe
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.exe.config
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.rsp
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.AppContext.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Collections.Immutable.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Console.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Globalization.Calendars.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.Compression.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.FileSystem.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Net.Http.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Net.Sockets.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Reflection.Metadata.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.ValueTuple.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XPath.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.exe
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.exe.config
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.rsp
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\VBCSCompiler.exe
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\VBCSCompiler.exe.config
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.SqlServer.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Web.Infrastructure.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Owin.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Helpers.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Mvc.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Razor.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Deployment.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Razor.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.SqlServer.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Razor.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Deployment.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Razor.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Helpers.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Mvc.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.AssemblyReference.cache
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.IdentityMigration.Init.resources
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.GenerateResource.cache
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.CoreCompileInputs.cache
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.CopyComplete
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.dll
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.pdb
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.InitialCreate.resources
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addProductDetail.resources
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addCart.resources
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addOrder.resources
+E:\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addOrderDetail.resources
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.dll.config
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.pdb
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.exe
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.exe.config
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.rsp
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.exe
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.exe.config
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.rsp
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Managed.Core.targets
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.AppContext.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Collections.Immutable.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Console.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Globalization.Calendars.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.Compression.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.FileSystem.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Net.Http.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Net.Sockets.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Reflection.Metadata.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.ValueTuple.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XmlDocument.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XPath.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.exe
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.exe.config
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.rsp
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\VBCSCompiler.exe
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\VBCSCompiler.exe.config
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.SqlServer.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Web.Infrastructure.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Owin.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Helpers.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Mvc.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Razor.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Deployment.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Razor.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.SqlServer.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Razor.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Deployment.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Razor.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Helpers.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Mvc.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.AssemblyReference.cache
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.IdentityMigration.Init.resources
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.InitialCreate.resources
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addProductDetail.resources
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addCart.resources
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addOrder.resources
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addOrderDetail.resources
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.GenerateResource.cache
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.CoreCompileInputs.cache
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.CopyComplete
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.dll
+D:\MVCExample\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.pdb
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.dll.config
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Code First _ Technology Products.pdb
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.exe
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.exe.config
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csc.rsp
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.exe
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.exe.config
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\csi.rsp
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.AppContext.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Collections.Immutable.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Console.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Globalization.Calendars.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.Compression.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.FileSystem.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Net.Http.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Net.Sockets.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Reflection.Metadata.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.ValueTuple.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XPath.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.exe
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.exe.config
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\vbc.rsp
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\VBCSCompiler.exe
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\roslyn\VBCSCompiler.exe.config
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.SqlServer.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Web.Infrastructure.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Owin.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Helpers.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Mvc.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Razor.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Deployment.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Razor.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\EntityFramework.SqlServer.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Razor.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Deployment.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Webpages.Razor.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Helpers.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Mvc.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.AssemblyReference.cache
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.IdentityMigration.Init.resources
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.InitialCreate.resources
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addProductDetail.resources
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addCart.resources
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addOrder.resources
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code_First___Technology_Products.ModelsMigration.addOrderDetail.resources
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.GenerateResource.cache
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.CoreCompileInputs.cache
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.csproj.CopyComplete
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\obj\Debug\Code First _ Technology Products.pdb
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.Bson.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Buffers.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Memory.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Net.Http.Formatting.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Numerics.Vectors.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Threading.Tasks.Extensions.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Http.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Http.WebHost.dll
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.Bson.pdb
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\Newtonsoft.Json.Bson.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Buffers.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Memory.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Net.Http.Formatting.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Numerics.Vectors.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Threading.Tasks.Extensions.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Http.xml
+D:\CODE IN UNIVERSITY\Technology Product Code First\Code First _ Technology Products\Code First _ Technology Products\bin\System.Web.Http.WebHost.xml

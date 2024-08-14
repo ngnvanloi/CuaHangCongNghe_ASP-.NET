@@ -1,0 +1,59 @@
+﻿@model List<Code_First___Technology_Products.Models.Product>
+
+@{
+    ViewBag.Title = "API Products";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<style>
+    #showProducts {
+        padding: 7px;
+        border-radius: 5px;
+        background-color: #F3F4F6;
+        border: none;
+    }
+        #showProducts:hover {
+            transition: ease-in 0.1s;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            transform: translateY(-0.15em);
+        }
+</style>
+<h5>API Products</h5>
+<button type="button" id="showProducts"><i class="fa-solid fa-eye"></i> Show products</button>
+
+<table class="table align-middle proTable">
+    <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Image</th>
+        <th scope="col">Price</th>
+        <th scope="col">Stock</th>
+    </tr>
+</table>
+<script>
+    $('#showProducts').click(() => {
+        // Xóa dữ liệu cũ trong bảng
+        //$('.proTable').empty();
+
+        $.ajax({
+            type: 'GET',
+            url: '/api/Product',
+            dataType: 'xml', // Yêu cầu dữ liệu trả về là XML
+            success: (xmlResponse) => {
+                // Sử dụng jQuery để duyệt qua các mục XML
+                $(xmlResponse).find('Product').each(function () {
+                    const $proRow = $(this);
+                    const strHTML = '<tr><td>' + $proRow.find('ProductID').text() + '</td><td>'
+                        + $proRow.find('ProductName').text() + '</td><td>'
+                        + '<img src="' + $proRow.find('ProductImage').text() + '" alt="Alternate Text" height="100px" /></td><td>'
+                        + $proRow.find('Price').text() + '</td><td>' + $proRow.find('Stock').text() + '</td><td>'
+                        + $proRow.find('Brand BrandName').text() + '</td></tr>';
+                    $('.proTable').append(strHTML);
+                });
+            },
+            error: (err) => {
+                console.log(err);
+                // Hiển thị thông báo lỗi nếu có lỗi
+            }
+        });
+    });
+</script>

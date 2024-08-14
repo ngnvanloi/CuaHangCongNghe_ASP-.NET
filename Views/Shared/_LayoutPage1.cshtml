@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="~/Image/logo 1.jpg" type="image/x-icon">
+    <!--https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6a/cd/84/6acd842d-c278-bf2b-ff29-798ddde1dce4/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1920x1080bb-80.png-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/e21d90a16d.js" crossorigin="anonymous"></script>
+    <script src="~/Scripts//jquery-3.7.1.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+        * {
+            text-align: left !important;
+        }
+
+        .field-validation-error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- #region HEADING -->
+    <style>
+    </style>
+    <div class="row" style="background-color: #E9EFFF; height: 40px; text-align: center; align-items: center; margin: 0px!important">
+        <div class="col">
+            <img src="https://cdn2.cellphones.com.vn/x30,webp,q100/https://dashboard.cellphones.com.vn/storage/top-banner-chinh-sach-bao-hanh-doi-tra.png" alt="heading-left" />
+        </div>
+        <div class="col">
+            <img src="https://cdn2.cellphones.com.vn/x30,webp,q100/https://dashboard.cellphones.com.vn/storage/top-banner-chinh-hang-xuat-vat-day-du.png" alt="heading-center" />
+        </div>
+        <div class="col">
+            <img src="https://cdn2.cellphones.com.vn/x30,webp,q100/https://dashboard.cellphones.com.vn/storage/top-banner-giao-nhanh-mien-phi.png" alt="heading-right" />
+        </div>
+    </div>
+    <!-- #endregion -->
+    <!-- #region NAVBAR -->
+    <style>
+        .navbar-custom ul li a.nav-link {
+            color: white;
+            padding: 0 12px !important;
+        }
+
+        .navbar-custom ul li a:hover {
+            color: black;
+        }
+
+        .navbar-custom .nav-item {
+            border-right: 1px solid white;
+        }
+        .dropdown-item:focus, .dropdown-item:hover {
+            background-color: #DF042A;
+            color: white!important;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top" style="background-color: #DF042A; color: white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/Home/Index">
+                <img src="~/Image/logo main 1.jpg" alt="Logo CellphoneS" height="45px" />
+                <!--https://www.dammio.com/wp-content/uploads/2019/02/cellphoneS_logo-1024x341.png-->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/Home/Index">
+                            <i class="fa-solid fa-house"></i>
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/listRandomProduct">
+                            <i class="fa-solid fa-person-walking-luggage"></i>
+                            Dạo chợ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-address-book"></i>
+                            Liên hệ
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-circle-question"></i>
+                            Hỏi đáp
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/apiListProductGET">
+                            <i class="fa-brands fa-quinscape"></i>
+                            API sản phẩm
+                        </a>
+                    </li>
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Account/Login">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                Đăng nhập
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Account/Register">
+                                <i class="fa-solid fa-user-plus"></i>
+                                Đăng kí
+                            </a>
+                        </li>
+                    }
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-user"></i>
+                                @User.Identity.Name
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/PersonalInformation/PersonnalInformation">Thông tin cá nhân</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="/Account/Logout">Đăng xuất</a></li>
+                            </ul>
+                        </li>
+
+                    }
+
+
+                </ul>
+                <form class="d-flex" action="/Home/listRandomProduct">
+                    <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search" name="search">
+                    <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- #endregion -->
+    @RenderSection("danhMucSanPham", required: false)
+    <!-- #region MAIN BODY -->
+    <div class="container-fluid mt-2" style="min-height: 300px;">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 10px; box-sizing: content-box;">
+                <div>
+                    @RenderBody()
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <!-- #endregion -->
+    <!-- #region FOOTER -->
+    <div class="container-fluid mt-2" style="min-height: 100px; background-color: #F8F8F8; padding: 20px 0px; ">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-3">
+                <h5>Tổng đài hỗ trợ miễn phí</h5>
+                <p style="font-size: 12px;">
+                    Gọi mua hàng 1800.2097 (7h30 - 22h00) <br />
+                    Gọi khiếu nại 1800.2063 (8h00 - 21h30) <br />
+                    Gọi bảo hành 1800.2064 (8h00 - 21h00) <br />
+                </p>
+
+            </div>
+            <div class="col-3">
+                <h5>Thông tin và chính sách</h5>
+                <p style="font-size: 12px;">
+                    Mua hàng và thanh toán Online <br />
+                    Mua hàng trả góp Online <br />
+                    Chính sách giao hàng <br />
+                    Tra điểm Smember <br />
+                    Xem ưu đãi Smember <br />
+                    Tra thông tin bảo hành <br />
+                    Tra cứu hoá đơn điện tử <br />
+                    Thông tin hoá đơn mua hàng <br />
+                    Trung tâm bảo hành chính hãng <br />
+                    Quy định về việc sao lưu dữ liệu <br />
+                </p>
+            </div>
+            <div class="col-2">
+                <h5>Thông tin dịch vụ khác</h5>
+                <p style="font-size: 12px;">
+                    Khách hàng doanh nghiệp (B2B) <br />
+                    Ưu đãi thanh toán <br />
+                    Quy chế hoạt động <br />
+                    Chính sách Bảo hành <br />
+                    Liên hệ hợp tác kinh doanh <br />
+                    Tuyển dụng <br />
+                    Dịch vụ bảo hành điện thoại <br />
+                    Dịch vụ bảo hành mở rộng <br />
+                </p>
+            </div>
+            <div class="col-2">
+                <h5>Kết nối với CellphoneS</h5>
+                <p style="font-size: 25px; display: flex; justify-content: space-between; width: 200px;">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div style="text-align: center!important; font-size: 15px; margin-top: 20px;">Written by Nguyễn Văn Lợi (MSSV: 2001215934 | Lớp 12DHTH01) | copyright <i class="fa-solid fa-copyright"></i></div>
+    </div>
+    <!-- #endregion -->
+</body>
+</html>

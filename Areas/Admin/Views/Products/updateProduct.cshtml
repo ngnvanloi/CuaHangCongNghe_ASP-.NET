@@ -1,0 +1,126 @@
+﻿@model Code_First___Technology_Products.Areas.Admin.ViewModel.addNewProductVM
+
+@{
+    ViewBag.Title = "Cập nhật sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+}
+
+<style>
+    #formRegister .row {
+        margin-top: 10px;
+    }
+
+    #formRegister {
+        width: 600px;
+        margin: 10px auto;
+    }
+
+    .field-validation-error {
+        color: red;
+    }
+    #formRegister {
+        width: 650px;
+        padding: 20px;
+        margin: 20px auto;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+</style>
+<div id="formRegister">
+    @using (Html.BeginForm("updateProduct", "Products", "Admin", FormMethod.Post))
+    {
+        <h5 style="text-align: center!important">Cập nhật sản phẩm</h5>
+
+        // ID | TÊN
+        <div class="row">
+            <div class="col-md-2">
+                @Html.LabelFor(temp => temp.ProductID)
+                @Html.TextBoxFor(temp => temp.ProductID, new { @class = "form-control", @Value = @ViewBag.Product.ProductID, @readonly = "readonly" })
+                @Html.ValidationMessageFor(temp => temp.ProductID)
+            </div>
+            <div class="col-md-10">
+                @Html.LabelFor(temp => temp.ProductName)
+                @Html.TextBoxFor(temp => temp.ProductName, new { @class = "form-control", @Value = @ViewBag.Product.ProductName })
+                @Html.ValidationMessageFor(temp => temp.ProductName)
+            </div>
+        </div>
+
+        // Hình ảnh
+        <div class="row">
+            <div class="col-md">
+                @Html.LabelFor(temp => temp.ProductImage)
+                @Html.TextBoxFor(temp => temp.ProductImage, new { @Value = @ViewBag.Product.ProductImage, @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.ProductImage)
+            </div>
+        </div>
+        // Mô tả
+        <div class="row">
+            <div class="col-md">
+                @Html.LabelFor(temp => temp.ProductDescription)
+                @Html.TextBoxFor(temp => temp.ProductDescription, new { @Value = @ViewBag.Product.ProductDescription, @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.ProductDescription)
+            </div>
+        </div>
+        // Brand | Phân loại
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.BrandID)
+                @Html.DropDownListFor(temp => temp.BrandID, new SelectList(@ViewBag.Brands, "BrandID", "BrandName", @ViewBag.Product.BrandID), "Chọn brand", new { @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.BrandID)
+            </div>
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.CategoryID)
+                @Html.DropDownListFor(temp => temp.CategoryID, new SelectList(@ViewBag.Categories, "CategoryID", "CategoryName", @ViewBag.Product.CategoryID), "Chọn category", new { @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.CategoryID)
+            </div>
+        </div>
+        // Stock | Price
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.Stock)
+                @Html.TextBoxFor(temp => temp.Stock, new { @Value = @ViewBag.Product.Stock, @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Stock)
+            </div>
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.Price)
+                @Html.TextBoxFor(temp => temp.Price, new { @Value = @ViewBag.Product.Price, @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Price)
+            </div>
+        </div>
+        // Screen | Battery
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.ScreenSize)
+                @Html.TextBoxFor(temp => temp.ScreenSize, new { @Value = @ViewBag.ProductDetail.ScreenSize, @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.ScreenSize)
+            </div>
+            <div class="col-md-6">
+                @Html.LabelFor(temp => temp.BatteryCapacity)
+                @Html.TextBoxFor(temp => temp.BatteryCapacity, new { @Value = @ViewBag.ProductDetail.BatteryCapacity, @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.BatteryCapacity)
+            </div>
+        </div>
+        // RAM | ROM |CameraResolution
+        <div class="row">
+            <div class="col-md-4">
+                @Html.LabelFor(temp => temp.Ram)
+                @Html.TextBoxFor(temp => temp.Ram, new { @Value = @ViewBag.ProductDetail.Ram, @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Ram)
+            </div>
+            <div class="col-md-4">
+                @Html.LabelFor(temp => temp.Rom)
+                @Html.TextBoxFor(temp => temp.Rom, new { @Value = @ViewBag.ProductDetail.Rom, @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.Rom)
+            </div>
+            <div class="col-md-4">
+                @Html.LabelFor(temp => temp.CameraResolution)
+                @Html.TextBoxFor(temp => temp.CameraResolution, new { @Value = @ViewBag.ProductDetail.CameraResolution, @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.CameraResolution)
+            </div>
+        </div>
+        //
+
+        <button type="submit" class="btn btn-success" style="margin-top: 30px;">Cập nhật</button>
+        <span style="margin-top: 30px;" class="btn btn-danger"><a href="/Admin/Products/Index" style="text-decoration:none; color: white;">Cancel</a></span>
+
+    }
+</div>

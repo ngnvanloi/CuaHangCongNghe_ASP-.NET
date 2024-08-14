@@ -1,0 +1,48 @@
+﻿@model Code_First___Technology_Products.Identity.AppUser
+
+@{
+    ViewBag.Title = "Thông tin User chi tiết";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+}
+
+<h2>Thông tin chi tiết user : @Model.CustomerName</h2>
+
+<table class="table align-middle table-border" style="margin-top: 30px;">
+    <tbody>
+        <tr>
+            <th scope="col">Username</th>
+            <td>@Model.UserName</td>
+        </tr>
+        <tr>
+            <th scope="col">Customer name</th>
+            <td>@Model.CustomerName</td>
+        </tr>
+        <tr>
+            <th scope="col">Gender</th>
+            <td>@Model.Gender</td>
+        </tr>
+        @{
+            string dateString = "Null";
+            if (Model.DateOfBirth.HasValue)
+            {
+                dateString = Model.DateOfBirth.Value.ToString("dd-MM-yyyy");
+            }
+        }
+        <tr>
+            <th scope="col">Date of birth</th>
+            <td>@dateString</td>
+        </tr>
+        <tr>
+            <th scope="col">Address</th>
+            <td>@Model.Addres</td>
+        </tr>
+        <tr>
+            <th scope="col">Phonenumber</th>
+            <td>@Model.PhoneNumber</td>
+        </tr>
+        <tr>
+            <th scope="col">Email</th>
+            <td>@Model.Email</td>
+        </tr>
+    </tbody>
+</table>

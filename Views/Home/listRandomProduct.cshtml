@@ -1,0 +1,165 @@
+﻿@model List<Code_First___Technology_Products.Models.Product>
+
+@using System;
+@{
+    ViewBag.Title = "Dạo vòng khám phá";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+@{
+    int listProLength = Model.Count();
+}
+<style>
+    .card:hover {
+        transition: ease-in 0.1s;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        transform: translateY(-0.25em);
+    }
+
+    .soft {
+        border-radius: 5px;
+    }
+
+        .soft:hover {
+            transition: ease-in 0.1s;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            transform: translateY(-0.15em);
+        }
+</style>
+<!--TÙY CHỌN TÌM KIẾM | SẮP XẾP-->
+<h5 style="margin-top: 15px">Sắp xếp theo</h5>
+<div class="row">
+    <div class="col-2">
+        <a href="/Home/listRandomProduct?search=@ViewBag.Search&softType=priceIncrease&BrandID=@ViewBag.BrandID" style="text-decoration: none; color: black">
+            <div style="background-color: #F3F4F6; padding: 5px; text-align: center!important" class="soft">
+                <i class="fa-solid fa-arrow-up-wide-short"></i>
+                Giá Thấp - Cao
+            </div>
+        </a>
+    </div>
+    <div class="col-2">
+        <a href="/Home/listRandomProduct?search=@ViewBag.Search&softType=priceDecrease&BrandID=@ViewBag.BrandID" style="text-decoration: none; color: black">
+            <div style="background-color: #F3F4F6; padding: 5px; text-align: center!important" class="soft">
+                <i class="fa-solid fa-arrow-down-wide-short"></i>
+                Giá Cao - Thấp
+            </div>
+        </a>
+    </div>
+    <div class="col-2">
+        <a href="/Home/listRandomProduct?search=&softType=&BrandID=" style="text-decoration: none; color: black">
+            <div style="background-color: #F3F4F6; padding: 5px; text-align: center!important" class="soft">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                Reset
+            </div>
+        </a>
+    </div>
+</div>
+<h5 style="margin-top: 15px">Tìm kiếm theo hãng</h5>
+<div class="row">
+
+    @for (int i = 0; i < @ViewBag.Brand.Count; i++)
+    {
+        <div class="col">
+            <a href="/Home/listRandomProduct?softType=@ViewBag.SoftType&BrandID=@ViewBag.Brand[i].BrandID" style="text-decoration: none; color: black">
+                <div style="background-color: #F3F4F6; padding: 5px; text-align: center!important" class="soft">
+                    <i class="fa-solid fa-tags"></i>
+                    @ViewBag.Brand[i].BrandName
+                </div>
+            </a>
+        </div>
+    }
+</div>
+
+<!--HIỂN THỊ DANH SÁCH-->
+<div class="row row-cols-1 row-cols-md-5 g-4" style="margin-top: 20px;">
+    @{
+
+        for (int i = 0; i < listProLength; i++)
+        {
+
+            <div class="col">
+                <div class="card h-100">
+                    <a href="/Home/getProductByID/?id=@Model[i].ProductID">
+                        <img src="@Model[i].ProductImage" class="card-img-top" alt="@Model[i].ProductName" style="padding: 5px;">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title" style="min-height: 50px;">@Model[i].ProductName</h5>
+                        <p class="card-text">Giá: <span style="color: red; font-weight: bold">@Model[i].Price</span> $</p>
+                        <p class="card-text">@Model[i].ProductDescription</p>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+<!--PAGINATION-->
+<style>
+    #pagination {
+        margin: 30px auto;
+    }
+
+    .page-link {
+        color: #DF042A;
+    }
+
+        .active > .page-link, .page-link.active {
+            z-index: 3;
+            color: white;
+            background-color: #DF042A;
+            border-color: ghostwhite;
+        }
+
+    .page-item:last-child .page-link {
+        border-radius: 0px;
+    }
+
+    .page-item:first-child .page-link {
+        border-radius: 0px;
+    }
+
+    #pagination a:hover {
+        color: #DF042A;
+    }
+
+    #pagination .page-link:hover {
+        z-index: 2;
+        color: white;
+        background-color: tomato;
+        border-color: tomato;
+    }
+
+    #pagination .page-link:focus {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        color: white;
+    }
+</style>
+<div class="row">
+    <nav id="pagination" aria-label="Page navigation example" class="">
+        @{
+            int prePage = ViewBag.page - 1;
+            if (prePage <= 0)
+            {
+                prePage = 1;
+            }
+            int nextPage = ViewBag.page + 1;
+            if (nextPage > ViewBag.noOfPages)
+            {
+                nextPage = ViewBag.noOfPages;
+            }
+        }
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="/Home/listRandomProduct?search=@ViewBag.Search&page=@prePage&softType=@ViewBag.SoftType&BrandID=@ViewBag.BrandID">Prev</a></li>
+            @for (int i = 0; i < ViewBag.noOfPages; i++)
+            {
+                if (i + 1 == ViewBag.Page)
+                {
+                    <li class="page-item"><a class="page-link active" href="/Home/listRandomProduct?search=@ViewBag.Search&page=@(i+1)&softType=@ViewBag.SoftType&BrandID=@ViewBag.BrandID">@(i+1)</a></li>
+                }
+                else
+                {
+                    <li class="page-item"><a class="page-link" href="/Home/listRandomProduct?search=@ViewBag.Search&page=@(i+1)&softType=@ViewBag.SoftType&BrandID=@ViewBag.BrandID">@(i+1)</a></li>
+                }
+            }
+            <li class="page-item"><a class="page-link" href="/Home/listRandomProduct?search=@ViewBag.Search&page=@nextPage&softType=@ViewBag.SoftType&BrandID=@ViewBag.BrandID">Next</a></li>
+        </ul>
+    </nav>
+</div>

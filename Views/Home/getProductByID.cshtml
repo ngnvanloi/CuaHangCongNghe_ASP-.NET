@@ -1,0 +1,216 @@
+﻿@model Code_First___Technology_Products.Models.ProductDetail
+@using Code_First___Technology_Products.ViewModel
+@{
+    ViewBag.Title = "Chi tiết sản phẩm";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="row">
+    <div class="col-7">
+
+        <!--TỔNG QUAN SẢN PHẨM-->
+        <div class="row" style=" padding: 0 12px;">
+            <h5>Tổng quan sản phẩm</h5>
+            <div class="card mb-3 position-relative" style=" border-radius: 0px; min-height: 200px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="@ViewBag.ProductTotal.ProductImage" class="img-fluid rounded-start" alt="@ViewBag.ProductTotal.ProductName">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@ViewBag.ProductTotal.ProductName</h5>
+                            <p class="card-text">@ViewBag.ProductTotal.ProductDescription</p>
+                            <p class="card-text"><small class="text-body-secondary">Giá: <span style="color: red; font-weight: bold">@ViewBag.ProductTotal.Price</span></small></p>
+                        </div>
+                        <p class="card-text placeholder-glow" style="padding-left: 16px;">
+                            <span class="placeholder col-7"></span>
+                            <span class="placeholder col-4"></span>
+                            <span class="placeholder col-4"></span>
+                            <span class="placeholder col-6"></span>
+                            <span class="placeholder col-8"></span>
+                        </p>
+                        @*<div class="card-footer position-absolute bottom-0 end-0" style="border: none; background-color: white;">
+            <a href="#" class="btn btn-success">Add to cart</a>
+            <a href="#" class="btn btn-success">Buying now</a>
+        </div>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--REVIEW SẢN PHẨM-->
+        <div class="row" style=" padding: 0 12px;">
+            <h5>Review</h5>
+            <p style="text-align: justify!important">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Purus semper eget duis at. Rhoncus mattis rhoncus urna neque viverra. Cras adipiscing enim eu turpis egestas pretium aenean. Facilisi cras fermentum odio eu feugiat. <br /> <br />
+                Vulputate eu scelerisque felis imperdiet. Cursus vitae congue mauris rhoncus aenean vel. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Nulla pharetra diam sit amet. Mauris a diam maecenas sed enim ut sem viverra aliquet. Aliquet porttitor lacus luctus accumsan tortor. <br /> <br />
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:80/plain/https://cellphones.com.vn/media/wysiwyg/Phone/Apple/iphone_15/iPhone-15-pro-max-5.png" alt="Alternate Text" width="100%" />
+                <br /> <br />
+                Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Facilisis sed odio morbi quis commodo odio. Leo duis ut diam quam nulla porttitor massa id neque. Tincidunt augue interdum velit euismod in pellentesque massa placerat. Urna molestie at elementum eu. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. <br /> <br />
+                Nunc faucibus a pellentesque sit amet. Massa sapien faucibus et molestie ac feugiat sed lectus. Nibh cras pulvinar mattis nunc. Scelerisque fermentum dui faucibus in. Arcu bibendum at varius vel pharetra vel turpis. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Faucibus turpis in eu mi bibendum neque egestas congue. <br /> <br />
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:80/plain/https://cellphones.com.vn/media/wysiwyg/Phone/Apple/iphone_15/iPhone-15-pro-max-24.jpeg" alt="Alternate Text" width="100%"/>
+                <br /><br />
+                Ultricies tristique nulla aliquet enim tortor at auctor. Quisque non tellus orci ac auctor augue. Mattis enim ut tellus elementum sagittis vitae et leo duis. <br /> <br />
+                Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in. Scelerisque varius morbi enim nunc faucibus a pellentesque sit. Elementum eu facilisis sed odio morbi quis. In vitae turpis massa sed elementum tempus egestas sed sed. Aliquam sem fringilla ut morbi tincidunt augue. Sit amet nisl purus in mollis nunc. <br /> <br />
+            </p>
+        </div>
+    </div>
+    <div class="col-5">
+
+        <!--CHI TIẾT CẤU HÌNH SẢN PHẨM-->
+        <div class="row" style=" padding: 0 12px;">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="row" style="">Thông số kĩ thuật</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Brand</th>
+                        <td>@ViewBag.Brand.BrandName</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Origin</th>
+                        <td>@ViewBag.Brand.Country</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Product Name</th>
+                        <td>@ViewBag.ProductTotal.ProductName</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Screen Size</th>
+                        <td>@Model.ScreenSize</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Battery Capacity</th>
+                        <td>@Model.BatteryCapacity</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Camera Solution</th>
+                        <td>@Model.CameraResolution</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">RAM</th>
+                        <td>@Model.Ram GB</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">ROM</th>
+                        <td>@Model.Rom GB</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        
+
+        <!--FORM MUA NGAY-->
+        <div class="row" style=" padding: 0 12px;">
+            <!--form mua ngay-->
+            <!--
+                thuộc tính
+
+            -->
+            @{
+                addToOrderVM addToOrderVM = new addToOrderVM();
+            }
+            <div id="addToOrder" class="" style="max-width: 500px; margin: 10px auto;">
+                <!-- padding-top: 60px-->
+                <form action="/Home/addToOrder" method="post" style="text-align: left">
+                    <!-- #region information Product -->
+                    <div class="row">
+                        <div class="card mb-3 position-relative" style=" border-radius: 0px; min-height: 200px; border: none">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="@ViewBag.ProductTotal.ProductImage" class="img-fluid rounded-start" alt="@ViewBag.ProductTotal.ProductName">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@ViewBag.ProductTotal.ProductName</h5>
+                                        <p class="card-text">@ViewBag.ProductTotal.ProductDescription</p>
+                                        <p class="card-text"><small class="text-body-secondary">Giá: <span style="color: red; font-weight: bold">@ViewBag.ProductTotal.Price</span> $</small></p>
+                                        <!--form-->
+                                        <div class="mb-1" style="display: none">
+                                            <label for="ID" class="form-label">Order Date</label>
+                                            <input type="text" class="form-control" id="ID" name="OrderDate" value="@DateTime.Now" readonly>
+                                        </div>
+                                        <div class="mb-1" style="display: none">
+                                            <label for="NAME1" class="form-label">CustomerID</label>
+                                            <input type="text" class="form-control" id="NAME1" name="CustomerID" value="@ViewBag.CustomerID" readonly>
+                                        </div>
+                                        <div class="mb-1" style="display: none">
+                                            <label for="NAME2" class="form-label">ProductID</label>
+                                            <input type="text" class="form-control" id="NAME2" name="ProductID" value="@Model.ProductID" readonly>
+                                        </div>
+                                        <div class="mb-1" style="display: none">
+                                            <label for="NAME3" class="form-label">Price</label>
+                                            <input type="text" class="form-control" id="NAME3" name="Price" value="@ViewBag.ProductTotal.Price" readonly>
+                                        </div>
+                                        <div class="mb-1" style="display: none">
+                                            <label for="NAME4" class="form-label">Total</label>
+                                            <input type="text" class="form-control" id="NAME4" name="TotalPrice" value="0" readonly>
+                                        </div>
+                                        <div class="mb-1">
+                                            <label for="SDT" class="form-label">Quantity</label>
+                                            <input type="text" class="form-control" id="SDT" aria-describedby="quantity" name="Quantity" required>
+                                            <div id="quantity" class="form-text" style="color: orange">Please enter an valid number !</div>
+                                        </div>
+                                        <!--submit-->
+                                        <button type="submit" class="btn btn-success">Add to order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <!--FORM THÊM VÀO GIỎ HÀNG-->
+        <div class="row" style=" padding: 0 12px;">
+            <!--form thêm vào giỏ hàng-->
+            <!--
+                thuộc tính
+                ProductID
+                Quatity
+                CustumerID / AppUserId
+            -->
+            <div class="" style="max-width: 500px; margin: 10px auto;">                
+                <form action="/Home/addToCart" method="post" style="text-align: left">
+                    <!-- #region information Product -->
+                    <div class="row">
+                        <div class="card mb-3 position-relative" style=" border-radius: 0px; min-height: 200px; border: none">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="@ViewBag.ProductTotal.ProductImage" class="img-fluid rounded-start" alt="@ViewBag.ProductTotal.ProductName">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@ViewBag.ProductTotal.ProductName</h5>
+                                        <p class="card-text">@ViewBag.ProductTotal.ProductDescription</p>
+                                        <p class="card-text"><small class="text-body-secondary">Giá: <span style="color: red; font-weight: bold">@ViewBag.ProductTotal.Price</span> $</small></p>
+                                        <!--form-->
+                                        <div class="mb-1" style="display: none">
+                                            <label for="ID" class="form-label">Product ID</label>
+                                            <input type="text" class="form-control" id="ID" name="ProductID" value="@Model.ProductID" readonly>
+                                        </div>
+                                        <div class="mb-1" style="display: none">
+                                            <label for="NAME" class="form-label">Customer ID</label>
+                                            <input type="text" class="form-control" id="NAME" name="Id" value="@ViewBag.CustomerID" readonly>
+                                        </div>
+                                        <div class="mb-1">
+                                            <label for="SDT" class="form-label">Quantity</label>
+                                            <input type="text" class="form-control" id="SDT" aria-describedby="quantity" name="Quantity" required>
+                                            <div id="quantity" class="form-text" style="color: orange">Please enter an valid number !</div>
+                                        </div>
+                                        <!--submit-->
+                                        <button type="submit" class="btn btn-success">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                           
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
